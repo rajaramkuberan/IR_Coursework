@@ -1,0 +1,109 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="col">
+    
+    
+    <div class="col mt-5">
+      <img src="{{url_for('static', filename='./images/coventry-university-logo.png')}}" class="mx-auto d-block" style="width: 25%; height: 25%">
+    </div>    
+    
+    <style>
+      /* Style the body */
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+      
+      /* Header/Logo Title */
+      .header {
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        font-style: italic;
+      }
+
+      .input-group{
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        font-style: italic;
+
+      }
+
+      .input-group-append{
+
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        font-style: italic;
+
+      }
+      
+      </style>
+
+      <div class="header">
+        <h1 style="font-family:verdana"><strong>Research Papers</strong></h1>
+      </div>
+    
+    <!-- <form class="mt-5" name="search" action="/search_results" onsubmit= "return validateForm()">
+      <div class="col-6 mx-auto input-group">
+        <input type="text" class="form-control" name="search" placeholder="Search for Title, Authors, Interests and more...">
+        <button type="submit" class="btn btn-success">Search</button>
+      </div>
+    </form>     -->
+
+      <form class="example" name="search" action="/search_results" style="margin:auto;width:470px">
+          <input type="text" class="form-control" name="search" required placeholder="Search for Title, Authors, Interests and more...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      
+    <!-- <script>
+      function validateForm() {
+        var x = document.forms["search"]["search"].value;
+        if (x == "" || x == null) {
+          alert("Please Enter the data");
+          return false;
+        }    
+      } 
+    </script>  -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  padding: 20px;
+  width: auto;
+  font-family: Arial;
+}
+
+/* * {  
+  box-sizing: border-box;
+} */
+
+form.example input[type=text] {
+  padding: 3px;
+  font-size: 11px;
+  border: 1px solid grey;
+  float: left;
+  width: 90%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 8%;
+  background: #2196F3;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+</style>
+
+  </div>
+{% endblock %}
