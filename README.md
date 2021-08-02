@@ -1,6 +1,6 @@
 # IR_Coursework
 
-## Search Engine Process followed in Task 1 of the CourseWork:
+## Task 1: Search Engine Process:
 
 ![alt text](https://github.com/rajaramkuberan/IR_Coursework/blob/main/Search_Engine.jpg)
 
