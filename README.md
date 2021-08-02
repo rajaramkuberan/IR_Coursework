@@ -38,7 +38,9 @@ Executing the [app.py](https://github.com/rajaramkuberan/IR_Coursework/blob/main
 Website Design Codes:
 
 [HTML Layout - layout.html](https://github.com/rajaramkuberan/IR_Coursework/tree/main/IRCW_Codes/Search_Engine_Coventry/pureportal_search_engine/app/templates)
+
 [Home Page of Research Paper Search Portal-search.html](https://github.com/rajaramkuberan/IR_Coursework/tree/main/IRCW_Codes/Search_Engine_Coventry/pureportal_search_engine/app/templates)
+
 [Query result page - search_result.html](https://github.com/rajaramkuberan/IR_Coursework/tree/main/IRCW_Codes/Search_Engine_Coventry/pureportal_search_engine/app/templates)
 
 ## Task 2: Subject Classification of each research Papers:
@@ -54,6 +56,7 @@ The dataset is created by processing and amalgamating the BBC Dataset and resear
 The dataset is preprocessed using the same process that is followed before the index creation.
 
 [Dataset Preprocessing - 1](https://github.com/rajaramkuberan/IR_Coursework/blob/main/IRCW_Codes/Search_Engine_Coventry/Data_preprocessing.ipynb)
+
 [Dataset Preprocessing - 2](https://github.com/rajaramkuberan/IR_Coursework/blob/main/IRCW_Codes/Search_Engine_Coventry/pureportal_search_engine/Classification/Classification.py)
 
 ### 3. Model Creation:
