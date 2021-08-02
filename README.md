@@ -2,7 +2,7 @@
 
 Search Engine Process followed in Task 1 of the CourseWork:
 
-![alt text](./Search_Image.jpg)
+![alt text](https://github.com/rajaramkuberan/IR_Coursework/blob/main/Search_Engine.jpg)
 
 
 1. Crawler: 
